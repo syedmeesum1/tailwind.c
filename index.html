@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow">
+        <div class="container mx-auto p-4 flex justify-between items-center">
+            <div class="text-lg font-bold text-blue-600 hover:animate-pulse">
+               Software House
+            </div> 
+            <div class="space-x-4">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Services</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mx-auto flex flex-col justify-center items-center h-full text-center">
+        <section class="relative">
+            <video autoplay loop class="w-full">
+              <source src="video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          
+          
+            <a href="https://www.linkedin.com/feed/"><button class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white px-4 py-2 font-semibold rounded-full hover:bg-blue-500  hover:text-white ">
+             Get Services
+            </button></a>
+        <h1 class="absolute top-1/3  left-1/3 text-white font-semibold font-serif  animate-bounce text-2xl  ">Our Intelligent Technology Solutions and Services 
+        </h1>
+        </section>
+</div>
+
+    <!-- About Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-gray-800">About Us</h2>
+            <p class="mt-4 text-gray-600">We are a team of dedicated professionals committed to providing top-notch services and solutions to our clients.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-semibold text-center text-gray-800 transform transition duration-300 hover:scale-110">Our Services</h2>
+            <div class="flex flex-wrap mt-10 justify-center">
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img class="w-full h-56 object-cover" src="web desi.webp" alt="Web Design">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Web Design</h3>
+                            <p class="text-gray-600 mt-2">Creating visually stunning and user-friendly websites tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                
+    <!-- Services Section 2 -->
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img class="w-full h-56 object-cover" src="seo.jpeg" alt="SEO Optimization">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800">SEO Optimization</h3>
+                            <p class="text-gray-600 mt-2">Boosting your website's visibility and ranking on search engines.</p>
+                        </div>
+                    </div>
+                </div>
+               <!-- Services Section 3-->
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img class="w-full h-56 object-cover" src="digital marketing.jpg" alt="Digital Marketing">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Digital Marketing</h3>
+                            <p class="text-gray-600 mt-2">Crafting effective digital marketing strategies to reach your target audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-semibold text-gray-800 animate-pulse">Get in Touch</h2>
+            <p class="mt-4 text-gray-600">Have any questions? We'd love to hear from you.</p>
+            <form class="mt-10 max-w-xl mx-auto " action="mailto:syedmesam.tms@gmail.com" method="post" enctype="text/plain">
+                <div class="flex flex-col md:flex-row md:space-x-4">
+                    <input type="text" class="w-full p-4 rounded-md border border-gray-300 focus:border-blue-500 focus:outline-none" placeholder="Your Name">
+                    <input type="email" class="w-full p-4 mt-4 md:mt-0 rounded-md border border-gray-300 focus:border-blue-500 focus:outline-none" placeholder="Your Email">
+                </div>
+                <textarea class="w-full p-4 mt-4 rounded-md border border-gray-300 focus:border-blue-500 focus:outline-none" placeholder="Your Message" rows="4"></textarea>
+                <button type="submit" class="mt-6 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-500 transition duration-300 animate-bounce">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
